@@ -1,0 +1,19 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 2rem;
+}
+
+.produtosItem {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.produtosItem img {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.produtosItem h2 {
+  font-size: 1.2rem;
+}
