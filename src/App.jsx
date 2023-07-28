@@ -5,6 +5,7 @@ import Header from './Components/Header';
 import Produtos from './Components/Produtos';
 import Contato from './Components/Contato';
 import Produto from './Components/Produto';
+import Footer from './Components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/produto/:id" element={<Produto />} />
         </Routes>
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }
