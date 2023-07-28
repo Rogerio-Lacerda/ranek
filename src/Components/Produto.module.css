@@ -1,0 +1,36 @@
+.produto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.imagens {
+  display: grid;
+  gap: 1rem;
+}
+
+.imagens img {
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.conteudo {
+  display: grid;
+  align-self: start;
+  gap: 0.8rem;
+  margin-top: 1rem;
+  justify-items: start;
+}
+
+.conteudo span {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: #88fa56;
+  color: #309f15;
+  font-weight: 500;
+}
+
+.conteudo p {
+  font-size: 1.1rem;
+}
